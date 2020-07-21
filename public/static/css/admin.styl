@@ -1,0 +1,64 @@
+body
+  font 15px Arial, Helvetica, Sans-serif
+  background-color rgb(161, 158, 158)
+ul,ol,html,body
+  margin 0
+  padding 0
+
+.hpvin
+  color rgb(67, 145, 175)
+  &:hover
+    text-decoration none
+    color rgb(67, 200, 175)
+.wrapper
+  min-height 100vh
+  overflow hidden
+  .col1
+    width 17%
+    float left
+    position relative
+    z-index 999
+  .col2
+    width 83%
+    float left
+    background-color rgb(223, 223, 223)
+    .header
+      height 40px
+      background-color rgb(26, 60, 112)
+      padding 10px
+      ul
+        li
+          display inline-block
+    .content
+      padding 16px
+      ul
+        li
+          list-style none
+.sidebar
+  min-height 100vh
+  background-color rgb(255, 255, 255)
+  .header
+    background-color rgb(26, 60, 112)
+    color white
+    text-align center
+    padding 16px
+    .logo
+        h1
+          text-transform uppercase
+  .menu
+    display block
+    margin-top 10px
+    text-align center
+    ul
+      li
+        margin-bottom 10px
+        a
+          display block
+          color rgb(26, 60, 112)
+          font-size 15px
+          padding 2px
+          text-transform uppercase
+        a:hover
+          background-color rgb(26, 60, 112)
+          color white
+          text-decoration none
